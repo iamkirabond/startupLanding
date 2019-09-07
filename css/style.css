@@ -1,0 +1,117 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 40px;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/img/images/wall_01.png');
+
+    background-position: absolute;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+}
+
+.menu_item{
+    list-style-type: none;
+    margin: 0 25px;
+}
+.menu_item a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main_title{
+    font-family: 'Montserrat';
+    font-size: 48px;
+    text-transform: uppercase;   
+}
+          
+.main_title_discription{
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.offer{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 245px;
+    justify-content: center;
+
+}
+
+.btn{
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding: 15px 0;
+    color: #fff;
+    border: #fff 2px solid;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #c0301c;
+    transition: 0.2s;
+}
+.services{
+    margin-top: 100px;
+    color: #717171;
+}
+.services_title{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform: uppercase;   
+    text-align: center;
+    padding-bottom: 30px;
+}
+.services_title:after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+.services_description{
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-weight: 16px;
+}
